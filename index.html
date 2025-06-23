@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Hamza | Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" sizes="32x32" href="/Images/favicon.jpg" type="image/jpg">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-container">
+                <div class="contact-info">
+                    <span><i class="fas fa-envelope"></i> amirhamza.diu@gmail.com</span>
+                    <span><i class="fas fa-phone"></i> +8801845948014</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/amir.hamja.3591267"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/KhAmirHamja1"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/amir-hamza5927"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/khamir.hamja59561"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="logo">
+                <img src="/Images/cover.jpg" alt="Amir Hamza Logo" id="amirlogo">
+                <div class="logo-text">
+                    <h1>Amir Hamza</h1>
+                    <p>Web Developer & Designer</p>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">My Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Welcome to My Personal Website</h2>
+        <p>Passionate web developer with expertise in creating responsive and user-friendly websites. Explore my work and get to know me better.</p>
+        <a href="#about" class="btn">Learn More About Me</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="container" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/Images/user1.jpg" alt="Amir Hamza">
+            </div>
+            <div class="about-text">
+                <h3>Hello, I'm Amir Hamza</h3>
+                <p>I am a professional web developer with over 5 years of experience in creating modern and responsive websites. My expertise includes HTML, CSS, JavaScript, and various frameworks like React and Vue.js.</p>
+                <p>I hold a Bachelor's degree in Computer Science from a prestigious university and have worked with numerous clients worldwide to deliver high-quality web solutions.</p>
+                <p>When I'm not coding, you can find me reading books, traveling, or exploring new technologies. I believe in continuous learning and always strive to improve my skills.</p>
+                <div class="skills">
+                    <h4>My Skills:</h4>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                        <li>React, Vue.js, Angular</li>
+                        <li>Node.js, Express</li>
+                        <li>MySQL, MongoDB</li>
+                        <li>Git, GitHub</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+                <a href="#contact" class="btn" style="margin-top: 20px;">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container" id="portfolio">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="portfolio-tabs">
+            <a href="#web" class="btn" style="margin-top: 20px;">Web Projects</a>
+            <a href="#matrimonial" class="btn" style="margin-top: 20px;">Matrimonial Biodata</a>
+            <a href="#calculator" class="btn" style="margin-top: 20px;">Calculator</a>
+        </div>
+        
+        <!-- Web Projects Tab -->
+        <div class="tab-content active" id="web">
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/Images/gorurHat.PNG" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Gorur Hat Website</h3>
+                        <p>A fully responsive e-hat platform with product filtering, cart functionality, and secure checkout.</p>
+                        <a href="https://amir160s.github.io/-/" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/Images/protfolio1.PNG" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A clean and modern portfolio template for creative professionals, with animated elements.</p>
+                        <a href="https://amir-portfolio-wdia.vercel.app/" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/Images/bibaho.PNG" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Marriage Biodata Web</h3>
+                        <p>A responsive Marriage Biodata website for creating, customizing, and sharing personal biodata profiles with photo uploads, printable templates, and easy data input.</p>
+                        <a href="https://bibaho.vercel.app/" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="/Images/sleepy.png" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Sleepy Web App</h3>
+                        <p>A minimalist Sleepy Web App designed to help users track sleep patterns, set bedtime reminders, and improve sleep quality through a calming interface and personalized insights.</p>
+                        <a href="https://v0-sleep-tracking-features.vercel.app/" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Matrimonial Biodata Tab -->
+        <div class="tab-content" id="matrimonial">
+            <div class="biodata-form">
+                <h3 style="text-align: center; color: var(--harvard-crimson); margin-bottom: 30px;">Matrimonial Biodata</h3>
+                <form id="matrimonialForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="height">Height</label>
+                            <input type="text" id="height" placeholder="e.g. 5'8''">
+                        </div>
+                        <div class="form-group">
+                            <label for="religion">Religion</label>
+                            <select id="religion">
+                                <option value="">Select</option>
+                                <option value="islam">Islam</option>
+                                <option value="hinduism">Hinduism</option>
+                                <option value="christianity">Christianity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="education">Education</label>
+                        <input type="text" id="education" placeholder="Your highest degree">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="occupation">Occupation</label>
+                        <input type="text" id="occupation">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="income">Annual Income</label>
+                        <input type="text" id="income">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="family">Family Background</label>
+                        <textarea id="family" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hobbies">Hobbies & Interests</label>
+                        <textarea id="hobbies" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="expectations">Partner Expectations</label>
+                        <textarea id="expectations" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group" style="text-align: center;">
+                        <button type="submit" class="submit-btn">Generate Biodata</button>
+                    </div>
+                </form>
+                
+                <div id="biodataResult" style="display: none; margin-top: 30px; padding: 20px; background-color: #f9f9f9; border-radius: 8px;">
+                    <h3 style="color: var(--harvard-crimson); text-align: center;">Your Matrimonial Biodata</h3>
+                    <div id="biodataContent"></div>
+                    <button id="downloadBiodata" class="btn" style="margin-top: 20px; display: block; width: auto; margin-left: auto; margin-right: auto;">Download as PDF</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Calculator Tab -->
+        <div class="tab-content" id="calculator">
+            <div class="calculator">
+                <h3 style="text-align: center; color: var(--harvard-crimson); margin-bottom: 20px;">Advanced Calculator</h3>
+                <input type="text" id="calcInput" placeholder="Enter expression" readonly>
+                <div class="calculator-buttons">
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 10px;">
+                        <button onclick="appendToInput('7')">7</button>
+                        <button onclick="appendToInput('8')">8</button>
+                        <button onclick="appendToInput('9')">9</button>
+                        <button onclick="appendToInput('+')">+</button>
+                        <button onclick="appendToInput('4')">4</button>
+                        <button onclick="appendToInput('5')">5</button>
+                        <button onclick="appendToInput('6')">6</button>
+                        <button onclick="appendToInput('-')">-</button>
+                        <button onclick="appendToInput('1')">1</button>
+                        <button onclick="appendToInput('2')">2</button>
+                        <button onclick="appendToInput('3')">3</button>
+                        <button onclick="appendToInput('*')">×</button>
+                        <button onclick="appendToInput('0')">0</button>
+                        <button onclick="appendToInput('.')">.</button>
+                        <button onclick="clearInput()">C</button>
+                        <button onclick="appendToInput('/')">÷</button>
+                    </div>
+                    <button onclick="calculate()" style="width: 100%;">=</button>
+                </div>
+                <div class="result" id="calcResult"></div>
+                
+                <h4 style="margin-top: 30px; text-align: center; color: var(--harvard-crimson);">BMI Calculator</h4>
+                <div class="form-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" placeholder="Enter weight in kg">
+                </div>
+                <div class="form-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" placeholder="Enter height in cm">
+                </div>
+                <button onclick="calculateBMI()" style="width: 100%; margin-bottom: 15px;">Calculate BMI</button>
+                <div class="result" id="bmiResult"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div style="max-width: 800px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+            <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 30px;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3 style="color: var(--harvard-crimson); margin-bottom: 15px;">Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--harvard-crimson);"></i> 123 Main Street, City, Country</p>
+                    <p><i class="fas fa-envelope" style="margin-right: 10px; color: var(--harvard-crimson);"></i> amir.hamza@example.com</p>
+                    <p><i class="fas fa-phone" style="margin-right: 10px; color: var(--harvard-crimson);"></i> +1 (123) 456-7890</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3 style="color: var(--harvard-crimson); margin-bottom: 15px;">Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About Me</h3>
+                <p>Professional web developer dedicated to creating beautiful, functional websites that deliver results.</p>
+                <div style="margin-top: 15px;">
+                    <a href="#" style="color: white; margin-right: 10px;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" style="color: white; margin-right: 10px;"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: white; margin-right: 10px;"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" style="color: white;"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">My Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">SEO Optimization</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to my newsletter for the latest updates and projects.</p>
+                <form style="margin-top: 15px;">
+                    <input type="email" placeholder="Your Email" style="width: 100%; padding: 10px; border: none; border-radius: 4px; margin-bottom: 10px;">
+                    <button type="submit" style="background-color: var(--harvard-crimson); color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Amir Hamza. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                if (mainNav.classList.contains('active')) {
+                    mainNav.classList.remove('active');
+                }
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Tab Functionality for Portfolio Section
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabId = btn.getAttribute('data-tab');
+                
+                // Remove active class from all buttons and contents
+                tabBtns.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                btn.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Calculator Functionality
+        function appendToInput(value) {
+            document.getElementById('calcInput').value += value;
+        }
+        
+        function clearInput() {
+            document.getElementById('calcInput').value = '';
+            document.getElementById('calcResult').style.display = 'none';
+        }
+        
+        function calculate() {
+            const input = document.getElementById('calcInput').value;
+            try {
+                // Replace × and ÷ with * and / for evaluation
+                const expression = input.replace(/×/g, '*').replace(/÷/g, '/');
+                const result = eval(expression);
+                document.getElementById('calcResult').innerHTML = `<strong>Result:</strong> ${result}`;
+                document.getElementById('calcResult').style.display = 'block';
+            } catch (e) {
+                document.getElementById('calcResult').innerHTML = '<strong>Error:</strong> Invalid expression';
+                document.getElementById('calcResult').style.display = 'block';
+            }
+        }
+        
+        function calculateBMI() {
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseFloat(document.getElementById('height').value) / 100; // convert cm to m
+            
+            if (isNaN(weight) || isNaN(height) || height === 0) {
+                document.getElementById('bmiResult').innerHTML = '<strong>Error:</strong> Please enter valid values';
+                document.getElementById('bmiResult').style.display = 'block';
+                return;
+            }
+            
+            const bmi = weight / (height * height);
+            let category = '';
+            
+            if (bmi < 18.5) {
+                category = 'Underweight';
+            } else if (bmi >= 18.5 && bmi < 25) {
+                category = 'Normal weight';
+            } else if (bmi >= 25 && bmi < 30) {
+                category = 'Overweight';
+            } else {
+                category = 'Obese';
+            }
+            
+            document.getElementById('bmiResult').innerHTML = `
+                <strong>Your BMI:</strong> ${bmi.toFixed(1)}<br>
+                <strong>Category:</strong> ${category}
+            `;
+            document.getElementById('bmiResult').style.display = 'block';
+        }
+        
+        // Matrimonial Biodata Form
+        document.getElementById('matrimonialForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const fullName = document.getElementById('fullName').value;
+            const dob = document.getElementById('dob').value;
+            const height = document.getElementById('height').value;
+            const religion = document.getElementById('religion').value;
+            const education = document.getElementById('education').value;
+            const occupation = document.getElementById('occupation').value;
+            const income = document.getElementById('income').value;
+            const family = document.getElementById('family').value;
+            const hobbies = document.getElementById('hobbies').value;
+            const expectations = document.getElementById('expectations').value;
+            
+            // Format date
+            const formattedDob = dob ? new Date(dob).toLocaleDateString('en-US', {
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric'
+            }) : 'Not specified';
+            
+            // Generate biodata content
+            const biodataContent = `
+                <p><strong>Name:</strong> ${fullName}</p>
+                <p><strong>Date of Birth:</strong> ${formattedDob}</p>
+                <p><strong>Height:</strong> ${height || 'Not specified'}</p>
+                <p><strong>Religion:</strong> ${religion || 'Not specified'}</p>
+                <p><strong>Education:</strong> ${education || 'Not specified'}</p>
+                <p><strong>Occupation:</strong> ${occupation || 'Not specified'}</p>
+                <p><strong>Annual Income:</strong> ${income || 'Not specified'}</p>
+                <p><strong>Family Background:</strong></p>
+                <p>${family || 'Not specified'}</p>
+                <p><strong>Hobbies & Interests:</strong></p>
+                <p>${hobbies || 'Not specified'}</p>
+                <p><strong>Partner Expectations:</strong></p>
+                <p>${expectations || 'Not specified'}</p>
+            `;
+            
+            document.getElementById('biodataContent').innerHTML = biodataContent;
+            document.getElementById('biodataResult').style.display = 'block';
+            
+            // Scroll to result
+            document.getElementById('biodataResult').scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        // Download Biodata as PDF (simulated)
+        document.getElementById('downloadBiodata').addEventListener('click', function() {
+            alert('In a real implementation, this would generate and download a PDF of your biodata.');
+        });
+    </script>
+</body>
+</html>

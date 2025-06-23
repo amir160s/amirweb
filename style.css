@@ -387,6 +387,10 @@
      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
      gap: 40px;
  }
+.footer-container{
+     color: white; 
+     margin-right: 10px;
+}
 
  .footer-column h3 {
      color: var(--harvard-gold);
